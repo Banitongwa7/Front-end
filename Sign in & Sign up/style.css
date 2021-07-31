@@ -1,0 +1,53 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 35%;
+    height: 400px;
+    margin: auto;
+    margin-top: 130px;
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    background-color: rgba(177, 231, 252, 0.356);
+    font-family: cursive;
+}
+table
+{
+    position: relative;
+    width: 90%;
+    margin: 35px;
+    margin-top: 110px;
+}
+
+button
+{
+    position: relative;
+    width: 50%;
+    height: 30px;
+    margin: auto;
+    left: 120px;
+    color: black;
+    top: 90px;
+    border: 1px solid rgba(0, 0, 0, 0.192);
+    border-style: groove;
+    background-color: rgba(4, 255, 171, 0.164);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s ease;
+    font-family: cursive;
+}
+
+button:hover
+{
+    background-color: rgba(4, 255, 171, 0.945);
+    color: black;
+}
+
+input
+{
+    outline: none;
+    height: 20px;
+}

@@ -67,7 +67,97 @@ body{
 
 .banniere
 {
-    height: 500px;
+    height: 450px;
+    /*
     margin-top: 50px;
     background: no-repeat center center / cover url("img/header.jpg") fixed;
+    */
+    background-image: url("img/header.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
+
+.main
+{
+    float: left;
+    background-color: #FFF;
+    width: calc(100% - 372px);
+    position: relative;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.11);
+    z-index: 2;
+}
+
+.sidebar
+{
+    float: right;
+    height: 200px;
+    background-color: #fbfbfb;
+    width: 372px;
+    padding: 40px;
+    position: relative;
+    font-size: 17px;
+    z-index: 1;
+}
+
+.sidebar-title
+{
+    font-size: 30px;
+    color: #000;
+    margin: 35px 0;
+}
+
+.sidebar-title:first-child
+{
+    margin-top: 0;
+}
+
+.sidebar a{
+    color: #9f9f9f;
+    text-decoration: none;
+}
+
+.sidebar a:hover{
+    text-decoration: underline;
+}
+
+.sidebar ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 2.3;
+}
+
+.footer
+{
+    clear: both;
+}
+
+.sidebar hr
+{
+    border: none;
+    background-color : #c4c4c4;
+    height: 1px;
+    margin: 50px 0;
+}
+
+.article-img
+{
+    float: left;
+    width: 308px;
+}
+
+.article-img img
+{
+    width: 100%;
+    height: auto;
+}
+
+article
+{
+    overflow: hidden;
+}
+
+
+

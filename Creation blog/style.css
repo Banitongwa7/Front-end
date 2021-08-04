@@ -8,6 +8,7 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 1.8;
     margin: 0;
+    font-weight: 500;
 }
 
 .topbar
@@ -19,6 +20,7 @@ body{
     width: 100%;
     background-color: white;
     padding: 30px;
+    z-index: 3;
 }
 
 .topbar nav
@@ -142,9 +144,28 @@ body{
     margin: 50px 0;
 }
 
+.article
+{
+    position: relative;
+    margin: 50px 0;
+    padding-left: 333px;
+    min-height: 203px;
+    max-width: 940px;
+}
+
+.container
+{
+    margin: 0 auto;
+    max-width: 940px;
+}
+
 .article-img
 {
     float: left;
+    width: 308px;
+    position: absolute;
+    left: 0;
+    top: 0;
     width: 308px;
 }
 
@@ -154,10 +175,51 @@ body{
     height: auto;
 }
 
+.article-date
+{
+    font-weight: 300;
+    color: rgba(0,0,0,0.6);
+    margin-bottom: 5px;
+}
+
+.article-title
+{
+    font-size: 2.25rem;
+    line-height: 1.1;
+    font-family: "cardo", serif;
+    margin: 0 0 15px 0;
+}
+
+.article a
+{
+    color: inherit;
+    text-decoration: none;
+}
+
+.article a:hover
+{
+    text-decoration: underline;
+}
+
 article
 {
     overflow: hidden;
 }
 
+.footer
+{
+    background-color:rgba(0, 25, 39, 0.959);
+    color: white;
+    text-align: center;
+    height: 100px;
+}
+
+.footer p
+{
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 0;
+    top: 35px;
+}
 
 
